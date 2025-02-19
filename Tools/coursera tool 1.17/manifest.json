@@ -1,0 +1,60 @@
+{
+   "action": {
+      "default_icon": "img/favicon-v2-194x194.png"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [
+      {
+         "css": [
+            "assets/index-a5c3b1d9.css"
+         ],
+         "js": [
+            "assets/index.ts-loader-6e21721d.js"
+         ],
+         "matches": [
+            "https://www.coursera.org/*"
+         ]
+      }
+   ],
+   "description": "Extension helps bypass videos & readings, auto do quizzes, auto submit assignments, auto grade reviews, get shareable links, etc.",
+   "homepage_url": "https://www.facebook.com/au.kien.thanh.2307",
+   "host_permissions": [
+      "https://www.coursera.org/*",
+      "https://generativelanguage.googleapis.com/*"
+   ],
+   "icons": {
+      "128": "img/favicon-v2-194x194.png",
+      "16": "img/favicon-v2-194x194.png",
+      "32": "img/favicon-v2-194x194.png",
+      "48": "img/favicon-v2-194x194.png"
+   },
+   "manifest_version": 3,
+   "name": "Coursera Tool Crack BY Huy Tam",
+   "permissions": [
+      "storage",
+      "cookies"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1.9",
+   "web_accessible_resources": [
+      {
+         "matches": [],
+         "resources": [
+            "img/favicon-v2-194x194.png"
+         ],
+         "use_dynamic_url": false
+      },
+      {
+         "matches": [
+            "https://www.coursera.org/*"
+         ],
+         "resources": [
+            "assets/chunk-60c35c14.js"
+         ],
+         "use_dynamic_url": false
+      }
+   ]
+}
