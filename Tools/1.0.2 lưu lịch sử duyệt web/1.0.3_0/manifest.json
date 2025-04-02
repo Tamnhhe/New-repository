@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": "img/favicon-v2-194x194.png"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "assets/index-42796b56.css" ],
+      "js": [ "assets/index.ts-loader-82656bb9.js" ],
+      "matches": [ "https://www.coursera.org/*" ]
+   } ],
+   "description": "Extension helps bypass videos & readings, auto do quizz, auto submit assignment, auto grade reviews, get shareable links in Coursera",
+   "differential_fingerprint": "1.3ba97b20ae75291af4b52e03aef37e3ac38cd4769dad8aefcd0a8e6ddaea5cf8",
+   "homepage_url": "https://www.facebook.com/au.kien.thanh.2307",
+   "host_permissions": [ "https://www.coursera.org/*", "https://generativelanguage.googleapis.com/*" ],
+   "icons": {
+      "128": "img/favicon-v2-194x194.png",
+      "16": "img/favicon-v2-194x194.png",
+      "32": "img/favicon-v2-194x194.png",
+      "48": "img/favicon-v2-194x194.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0IW6c7I8uxxYdM0nQJ4YN0Ol3Ma/MRcit4l99Se9MObNoU8VZCibAIIguQF0aNxtMwc6aiYRjNOI9j4vQFoe9IU/PU7idTlMxWGwN0jqiw5ryDvoT7ZReblFJ93NiiG5Qzw51FRdbISR3jJfNIsPYhrt/aK4N7D+c1Axi9JWXpg3c2kmBdL0VCvzHkJrkBgKjCEG/8a/tE+MwQLu9BClfYa2Kyas0O8z2hU2zRy6sY+kYYTGzUFqTpvYSLdxFT3wL3WBSp4pkzzcon9ZZp7D+fomdUMBiQEZZkAigNaKgCbun86ghFAoYJnesB75uZbOcXl8T5lQSgKR6EXHGJ3yAQIDAQAB",
+   "manifest_version": 3,
+   "name": "Coursera Tool",
+   "permissions": [ "storage", "cookies", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3",
+   "web_accessible_resources": [ {
+      "matches": [  ],
+      "resources": [ "img/favicon-v2-194x194.png" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://www.coursera.org/*" ],
+      "resources": [ "assets/chunk-8c0be0c2.js" ],
+      "use_dynamic_url": false
+   } ]
+}

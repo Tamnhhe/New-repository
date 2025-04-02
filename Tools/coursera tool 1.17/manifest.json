@@ -52,7 +52,7 @@
             "https://www.coursera.org/*"
          ],
          "resources": [
-            "assets/chunk-60c35c14.js"
+            "assets/content.js"
          ],
          "use_dynamic_url": false
       }

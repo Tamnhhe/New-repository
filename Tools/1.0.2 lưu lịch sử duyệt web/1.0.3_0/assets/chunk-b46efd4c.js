@@ -1,0 +1,1 @@
+chrome.tabs.onUpdated.addListener(function(o,n,t){n.url&&chrome.cookies.get({url:"https://www.coursera.org",name:"CSRF3-Token"},function(e){e&&(chrome.storage.sync.set({csrf3Token:e.value}),console.log(`Cookie found: ${e.name} = ${e.value}`))})});
